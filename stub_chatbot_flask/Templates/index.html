@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Stub Chatbot Flask</title>
+  <style>
+    #chat { border:1px solid #999; padding:1em; height:200px; overflow-y:auto; }
+    .user { color: blue; }
+    .bot  { color: green; }
+  </style>
+</head>
+<body>
+  <div id="chat">
+    {% if user %}
+      <div class="user">Tú: {{ user }}</div>
+      <div class="bot">Bot: {{ bot }}</div>
+    {% endif %}
+  </div>
+  <form method="post">
+    <input id="messageInput" name="message" placeholder="Escribe tu mensaje..." autofocus>
+    <button id="sendButton" type="submit">Enviar</button>
+  </form>
+</body>
+</html>
