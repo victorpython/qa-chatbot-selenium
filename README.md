@@ -21,6 +21,7 @@ Este repositorio contiene un proyecto completo de pruebas automatizadas para un 
 
 ## 📂 Estructura del proyecto
 
+```bash
 qa-chatbot-selenium/
 ├── stub_chatbot_flask/               # Mini servidor Flask (chatbot)
 │   ├── app.py
@@ -39,6 +40,7 @@ qa-chatbot-selenium/
 ├── failures.json                     # Registro alternativo de fallos
 ├── report.html                       # Reporte generado por pytest-html
 └── README.md                         # Este archivo
+```
 
 ## 🚀 Instrucciones para ejecutar
 
