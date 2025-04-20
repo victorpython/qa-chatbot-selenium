@@ -50,15 +50,15 @@ qa-chatbot-selenium/
    pip install selenium pytest pytest-html flask
    ```
 3. Corre el servidor Flask (desde otra terminal):
-   ```bash
+  ```bash
   cd stub_chatbot_flask
   python app.py
    ```
 4. Ejecuta los tests:
- ```bash
+  ```bash
   cd ..
   pytest -v tests/test_chatbot.py --html=report.html --self-contained-html
-   ```
+  ```
 
 ## 📬 Contacto
 📧 victorcf.92@gmail.com
